@@ -8,12 +8,10 @@ import {actionCreators} from "../state/index"
 const DrumPads = (props) => {
 
     const clips = useSelector((state)=>state.clips);
-    const dispatch = useDispatch()
-    const {actionFunc, actionFuncTwo, clipsAction} = bindActionCreators(actionCreators, dispatch)
-
+    console.log("clipss", clips)
 
     return (
-        <div className={"drum-pads"}>
+        <div id={"drum-pads"}>
             {clips.map((clip)=>
             <Drumpad key={clip.id} clip={clip}/>
             )}

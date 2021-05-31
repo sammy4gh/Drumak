@@ -7,6 +7,7 @@ const Drumpad = ({clip}) => {
     function playSound(){
                 const sound  = document.getElementById(clip.keyTrigger)
                 sound.currentTime =0
+        
                 sound.play()
                 return sound;
     }
@@ -26,7 +27,7 @@ const Drumpad = ({clip}) => {
 
     return (
                     <div
-                        className={"drum-pads"}
+                        className={"drum-pad"}
                         onClick={playSound}
                         style={padStyle}
                         key={clip.id}

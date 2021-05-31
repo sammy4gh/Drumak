@@ -1,10 +1,10 @@
 import {combineReducers} from "redux";
-import reducer from "./reducer";
 import clipsReducer from "./clipsReducer";
+import powerReducer from "./powerReducer";
 
 const reducers = combineReducers({
-     myTest : reducer,
-     clips:clipsReducer
+     clips:clipsReducer,
+     power:powerReducer
 })
 
 export default reducers;

@@ -1,9 +1,10 @@
 import React from 'react';
+import Power from './Power';
 
 const Controls = (props) => {
     return (
         <div>
-            <h1>Hello</h1>
+            <Power/>
         </div>
     );
 }
