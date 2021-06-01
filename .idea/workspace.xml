@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e24b61af-7980-478d-9ef2-5af3e07566cb" name="Default Changelist" comment="initaila merge of power button branch">
+    <list default="true" id="e24b61af-7980-478d-9ef2-5af3e07566cb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21,_10_36_AM_[Default_Changelist]/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21,_10_58_AM_[Default_Changelist]/shelved.patch" afterDir="false" />
@@ -36017,7 +36017,7 @@
       <workItem from="1622296204581" duration="6074000" />
       <workItem from="1622367259019" duration="4427000" />
       <workItem from="1622469423484" duration="890000" />
-      <workItem from="1622471062546" duration="10583000" />
+      <workItem from="1622471062546" duration="11072000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1622196675188</created>
@@ -36091,6 +36091,7 @@
     <MESSAGE value="Revert &quot;Initialize project using Create React App&quot;&#10;&#10;This reverts commit b91d0500" />
     <MESSAGE value="power button is active" />
     <MESSAGE value="initaila merge of power button branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="initaila merge of power button branch" />
+    <MESSAGE value="commit changes to power button" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit changes to power button" />
   </component>
 </project>
