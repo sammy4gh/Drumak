@@ -1,14 +1,15 @@
 import React from 'react';
-
+import {useSelector} from 'react-redux';
 const Drumpad = ({clip}) => {
 
+    const power = useSelector(state => state.power)
+    console.log("power", power)
 
 
     function playSound(){
                 const sound  = document.getElementById(clip.keyTrigger)
                 sound.currentTime =0
-        
-                sound.play()
+                power? sound.play() :sound.pause()
                 return sound;
     }
     const padStyle ={

@@ -11,7 +11,6 @@ const Power = (props) => {
 
 
     const power = useSelector(state => state.power)
-    console.log("power", power)
 
     const dispatch = useDispatch()
     const {powerAction} = bindActionCreators(actionCreators, dispatch)
