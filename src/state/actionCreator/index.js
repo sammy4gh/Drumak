@@ -1,3 +1,11 @@
+export const volumeAction = (value)=>{
+    return (dispatch)=>{
+        dispatch({
+            type:'volume',
+            payload:value
+        })
+    }
+}
 
 export const powerAction = (event)=>{
     return (dispatch)=>{
@@ -6,5 +14,14 @@ export const powerAction = (event)=>{
             payload:event
         })
     }
-}
+};
 
+
+export const displayAction = ()=>{
+    return (dispatch)=>{
+        dispatch({
+            type:'display',
+            payload:console.log("clicked")
+        })
+    }
+}

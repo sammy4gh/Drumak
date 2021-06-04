@@ -5,7 +5,7 @@
   border-radius: 10px;
 }
 
-#display{
+#container{
   display:grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 2em;
@@ -19,18 +19,26 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
 }
+#controls{
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-gap: 2em;
+  justify-items: center;
+}
+
+#volume{
+  display:grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-gap: 1em;
+}
 #power{
-  width: 23px;
-  height: 77px;
-  background:#FC7644;
-  border-radius: 10px;
+
+
 }
 .react-switch {
-  border-radius:10px !important;
-  display:flex !important;
   text-align:center;
   flex-direction: column !important;
   justify-content: center;
   transform: rotate(-90deg);
-
+  margin: 1em;
 }

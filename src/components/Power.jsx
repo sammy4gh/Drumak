@@ -17,15 +17,16 @@ const Power = (props) => {
 
 
     let onStyle={
+        display:'flex',
         color:'#B7F04D',
-        fontSize: '1em',
+        fontSize: '1.2em',
         textAlign: 'center',
         transform: 'rotate(90deg)',
 
     }
     let offStyle ={
         color:'#FF0000',
-        fontSize: '1em',
+        fontSize: '1.2em',
         textAlign: 'center',
         transform: 'rotate(90deg)',
 
@@ -40,7 +41,7 @@ const Power = (props) => {
                     onColor={"#FC7644"}
                     offHandleColor={'#FC7644'}
                     onHandleColor={'#FC7644'}
-                    height={20}
+                    height={22}
                     width={76}
                     uncheckedIcon={false}
                     checkedIcon={false}
