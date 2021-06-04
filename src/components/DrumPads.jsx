@@ -10,10 +10,15 @@ const DrumPads = (props) => {
     const clips = useSelector((state)=>state.clips);
     console.log("clipss", clips)
 
+
+
     return (
         <div id={"drum-pads"}>
             {clips.map((clip)=>
-            <Drumpad key={clip.id} clip={clip}/>
+            <Drumpad
+                key={clip.id}
+                clip={clip}
+            />
             )}
         </div>
 

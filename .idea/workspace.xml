@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24b61af-7980-478d-9ef2-5af3e07566cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Display.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Volume.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/reducers/displayReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/reducers/volumeReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21,_10_36_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21,_10_58_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21__10_36_AM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_28_21__10_58_AM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_28_21,_10_37_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_5_28_21__10_37_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Controls.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Controls.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DrumPads.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrumPads.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Drumpad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drumpad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Power.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Power.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/actionCreator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/actionCreator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/clipsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/reducers/clipsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +58,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/Drumpad.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/reducers/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/DrumPads.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/reducers/clipsReducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/reducers/powerReducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/state/actionCreator/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1sfJZfimlQQKQzFv635me4fBu7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +90,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -114,6 +147,11 @@
       <workItem from="1622469423484" duration="890000" />
       <workItem from="1622471062546" duration="11072000" />
       <workItem from="1622563765475" duration="361000" />
+      <workItem from="1622719832607" duration="3538000" />
+      <workItem from="1622730787152" duration="3921000" />
+      <workItem from="1622767220358" duration="597000" />
+      <workItem from="1622805495156" duration="4215000" />
+      <workItem from="1622809778202" duration="4805000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1622196675188</created>
@@ -157,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622564056935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="power synced with drumpads">
+      <created>1622565596937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622565596937</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +240,14 @@
     <MESSAGE value="power button is active" />
     <MESSAGE value="initaila merge of power button branch" />
     <MESSAGE value="commit changes to power button" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit changes to power button" />
+    <MESSAGE value="power synced with drumpads" />
+    <option name="LAST_COMMIT_MESSAGE" value="power synced with drumpads" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

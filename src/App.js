@@ -7,7 +7,7 @@ function App() {
 
   return (
     <section className="App" id="drum-machine">
-        <div id={"display"}>
+        <div id={"container"}>
             <DrumPads/>
             <Controls/>
         </div>
