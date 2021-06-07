@@ -70,7 +70,12 @@ const func=(event)=>{
                     >
                         <KeyboardEventHandler
                             handleKeys={['all']}
-                            onKeyEvent={(key) => console.log("key",key)} />
+                            onKeyEvent={(key, event) => {
+                                if (event.keyCode === clip.keyCode) {
+                                    playSound()
+                                }
+                            }
+                            } />
 
                         <audio
                             className={"clip"}
