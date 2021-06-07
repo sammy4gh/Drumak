@@ -1,15 +1,10 @@
 import React from 'react';
-import {useState} from "react";
 import Drumpad from "./Drumpad";
-import {useSelector, useDispatch} from "react-redux";
-import {bindActionCreators} from "redux";
-import {actionCreators} from "../state/index"
+import {useSelector} from "react-redux";
 
 const DrumPads = (props) => {
 
     const clips = useSelector((state)=>state.clips);
-    console.log("clipss", clips)
-
 
 
     return (

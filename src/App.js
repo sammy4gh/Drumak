@@ -1,5 +1,4 @@
 import './App.css';
-import {useSelector} from "react-redux";
 import DrumPads from "./components/DrumPads";
 import Controls from "./components/Controls";
 function App() {

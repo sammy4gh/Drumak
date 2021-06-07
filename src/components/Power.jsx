@@ -1,5 +1,4 @@
 import React from 'react';
-import {useState} from 'react'
 import Switch from "react-switch";
 import {FaPowerOff} from 'react-icons/fa';
 import {useSelector, useDispatch} from 'react-redux';

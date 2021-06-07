@@ -1,8 +1,7 @@
 import React from 'react';
 import {FaVolumeUp, FaVolumeMute} from 'react-icons/fa';
-import Slider, { Range } from 'rc-slider';
+import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
-import {useState} from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {actionCreators } from '../state/index';
@@ -10,17 +9,11 @@ import {actionCreators } from '../state/index';
 const Volume = (props) => {
 
     const volume = useSelector(state =>state.volume)
-    console.log("volume",volume)
     const dispatch = useDispatch()
-    const {powerAction, volumeAction} = bindActionCreators(actionCreators, dispatch)
+    const { volumeAction} = bindActionCreators(actionCreators, dispatch)
 
 
-   /* const [value,setValue] = useState(volume)
 
-    const onSliderChange = value => {
-       console.log(value);
-        setValue(value)
-    };*/
 
     const handleStyle={
         borderColor: '#FC7644',
