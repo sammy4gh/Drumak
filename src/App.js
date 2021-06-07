@@ -6,13 +6,15 @@ function App() {
 
 
   return (
-    <section className="App" id="drum-machine">
+
+
+    <main className="App" id="drum-machine">
         <div id={"container"}>
             <DrumPads/>
             <Controls/>
         </div>
 
-    </section>
+    </main>
   );
 }
 

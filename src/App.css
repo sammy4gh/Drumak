@@ -11,7 +11,7 @@
   grid-gap: 2em;
   align-items: center;
   justify-items: center;
-
+  font-weight:bolder;
 }
 
 #drum-pads{
@@ -34,6 +34,19 @@
 #power{
 
 
+}
+#display{
+  height: 25px;
+  width: 116px;
+  border-radius: 10px;
+  background: #FC7644;
+  color: #B7F04D;
+  font-size: 14px;
+  font-weight:bolder;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align:center;
 }
 .react-switch {
   text-align:center;

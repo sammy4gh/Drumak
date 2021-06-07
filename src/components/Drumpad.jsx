@@ -2,9 +2,12 @@ import React from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {bindActionCreators} from "redux";
 import {actionCreators} from "../state/index"
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 
 const Drumpad = ({clip}) => {
+
+
 
     const power = useSelector(state => state.power)
     const volume = useSelector(state =>state.volume)
@@ -47,25 +50,31 @@ const Drumpad = ({clip}) => {
         alignItems: 'center'
 
     }
-    const func=(event)=>{
+
+
+
+const func=(event)=>{
         console.log('event', event)
     }
 
     return (
                     <div
                         className={"drum-pad"}
-                        onClick={/*playSound*/(event)=>{
+                        onClick={(e)=>{
                         playSound();
-                        func(clip.id)
-                        }
+                        displayAction(clip.id);
+                         }
                         }
                         style={power? padOnStyle : padOffStyle}
                         key={clip.id}
                     >
+                        <KeyboardEventHandler
+                            handleKeys={['all']}
+                            onKeyEvent={(key) => console.log("key",key)} />
 
                         <audio
                             className={"clip"}
-                            id={clip.keyTrigger }
+                            id={clip.keyTrigger}
                             src={clip.url}
                             type={"audio/mpeg"}
                         />
@@ -73,8 +82,11 @@ const Drumpad = ({clip}) => {
 
                     </div>
 
-
     );
+
+
+
+
 }
 
 export default Drumpad;

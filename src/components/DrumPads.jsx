@@ -13,7 +13,10 @@ const DrumPads = (props) => {
 
 
     return (
-        <div id={"drum-pads"}>
+        <div id={"drum-pads"}
+
+        >
+
             {clips.map((clip)=>
             <Drumpad
                 key={clip.id}

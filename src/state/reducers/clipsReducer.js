@@ -58,9 +58,6 @@ const clipsReducer = (state = bankOne, action)=>{
     switch (action.type){
         case "clips":
             return action.payload
-
-        case "display":
-            return action.payload
         default:
             return state;
     }

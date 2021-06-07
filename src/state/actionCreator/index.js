@@ -16,12 +16,15 @@ export const powerAction = (event)=>{
     }
 };
 
-
-export const displayAction = ()=>{
+export const displayAction = (display)=>{
     return (dispatch)=>{
         dispatch({
             type:'display',
-            payload:console.log("clicked")
+            payload:display
         })
     }
 }
+
+
+
+
