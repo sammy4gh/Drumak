@@ -53,14 +53,12 @@ const Drumpad = ({clip}) => {
 
 
 
-const func=(event)=>{
-        console.log('event', event)
-    }
+
 
     return (
                     <div
                         className={"drum-pad"}
-                        onClick={(e)=>{
+                        onClick={()=>{
                         playSound();
                         displayAction(clip.id);
                          }
