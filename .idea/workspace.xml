@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e24b61af-7980-478d-9ef2-5af3e07566cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DrumPads.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrumPads.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Power.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Power.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Volume.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Volume.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Drumpad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drumpad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,8 @@
       <workItem from="1622809778202" duration="4805000" />
       <workItem from="1623056909957" duration="1230000" />
       <workItem from="1623058310748" duration="3297000" />
-      <workItem from="1623089893703" duration="751000" />
+      <workItem from="1623089893703" duration="1770000" />
+      <workItem from="1623156441118" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1622196675188</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623090356302</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="removed unused imports">
+      <created>1623090735565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623090735565</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +238,8 @@
     <MESSAGE value="commit changes to power button" />
     <MESSAGE value="power synced with drumpads" />
     <MESSAGE value="removed unused codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unused codes" />
+    <MESSAGE value="removed unused imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unused imports" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

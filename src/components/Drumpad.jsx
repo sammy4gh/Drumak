@@ -57,7 +57,7 @@ const Drumpad = ({clip}) => {
 
     return (
                     <div
-                        className={"drum-pad"}
+                        className="drum-pad"
                         onClick={()=>{
                         playSound();
                         displayAction(clip.id);
@@ -71,6 +71,7 @@ const Drumpad = ({clip}) => {
                             onKeyEvent={(key, event) => {
                                 if (event.keyCode === clip.keyCode) {
                                     playSound()
+                                    displayAction(clip.id)
                                 }
                             }
                             } />
